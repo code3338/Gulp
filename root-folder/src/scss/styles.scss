@@ -1,0 +1,16 @@
+@import "./partials/_base.scss";
+@import "./partials/_typography.scss";
+@import "./partials/_variable.scss";
+
+body {
+  font-family:$font-stack;
+  font-size:15px;
+}
+
+@media (min-width:768px) {
+  @import "./partials/_768up.scss";
+}
+
+@media(min-width:1200px) {
+  @import"./partials/_1200up.scss";
+}
